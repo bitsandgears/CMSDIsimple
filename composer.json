@@ -1,0 +1,23 @@
+{
+    "name": "vendor/doitdocs",
+    "description": "",
+    "authors": [
+        {
+            "name": "kars",
+            "email": "borgulas@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Vendor\\Doitdocs\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
